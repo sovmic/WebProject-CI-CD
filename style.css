@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Jura:wght@300..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class = "navbar">
+            <div>
+                <img src = "images/logo.png" alt = "GPU Catalog" height = "140">
+            </div>
+            <div class = "navbar">
+                <button class = "nav_btn" onclick="window.location.href = 'index.html'">
+                    Главная
+                </button>
+                <button class = "nav_btn" onclick="window.location.href = 'catalog.html'">
+                    Каталог
+                </button>
+                <button class = "nav_btn" onclick="window.location.href = 'order.html'">
+                    Сделать заказ
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class = "home_page">
+        <section class = "about">
+            <div class = "container">
+                <h2>Немного о нашем каталоге...</h2>
+                <p>Сайт-каталог видеокарт поможет вам просмотреть, оценить и наглядно сравнить все доступные на маркетплейсах видеокарты на данный момент. В удобном каталоге вы можете выбрать подходящую вам по специфике и характеристикам карточку. В случае необходимости вы сможете добавить понравившуюся карту в закладки, а так же сравнить её с любой другой картой доступной в каталоге.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class = "container">
+            <button class="footer_button" onclick = "">
+                    Политика конфиденциальности
+            </button>
+            <button class="footer_button" onclick = "">
+                    Контакты
+            </button>
+            <button class="footer_button" onclick = "">
+                    Информация
+            </button>
+        </div>
+    </footer>
+
+
+</body>
+</html>
